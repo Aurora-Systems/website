@@ -1,5 +1,6 @@
 "use client"
 import Link from 'next/link';
+import Image from "next/image"
 import { useState } from 'react';
 
 export const Navbar = () => {
@@ -22,7 +23,7 @@ export const Navbar = () => {
                             <Link className="nav-link" href="#">Services</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">Roadmap</Link>
+                            <Link className="nav-link" href="#">Roadmap</Link> 
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" href="#">Portfolio</Link>
@@ -37,3 +38,51 @@ export const Navbar = () => {
         </nav>
     );
 };
+
+
+export const Footer=()=>{
+    return(
+        <div className='row'>
+            <div className='col-sm'>
+                <div>
+                    <h6 className='mb-3'>Contact Details</h6>
+                </div>
+                <p><i className="bi bi-envelope me-2"></i>support@aurorasystems.co.zw</p>
+                <p><i className="bi bi-telephone me-2"></i>+263 78 898 4320</p>
+                <p><i className="bi bi-geo-alt me-2"></i>258 Smuts Rd<br/><span className='ms-4'>Waterfalls</span><br/><span className='ms-4'>Harare</span><br/><span className='ms-4'>Zimbabwe</span></p>
+            </div>
+            <div className="col-sm">
+                <div className='mb-3'>
+                    <h6 >Services</h6>
+                </div>
+                <p><Link href="/services/web_dev">Web Development</Link></p>
+                <p><Link href="/services/ux_design">User Interface design | UI/UX</Link></p>
+                <p><Link href="/services/mobile_dev">Mobile App Development</Link></p>
+                <p><Link href="/services/project_management">Project Mnagement</Link></p>
+                <p><Link href="/services/custom_software_dev">Custom Software Development</Link></p>
+            </div>
+            <div className="col-sm">
+                <div className='mb-3'>
+                    <h6>Pages</h6>
+                </div>
+                <p><Link href="/roadmap">Roadmap</Link></p>
+                <p><Link href="/portfolio">Porfolio</Link></p>
+                <p><Link href="/careers">Careers</Link></p>
+                <p><Link href="/contact_us">Contact us</Link></p>
+                <p><Link href="/legal">Legal</Link></p>
+            </div>
+            <div className="col-sm">
+                <div className="d-flex flex-row mb-3">
+                    <Image src="https://ngratesc.sirv.com/website/aurora_logo.png" width={20} height={20} alt="Aurora logo"/>
+                    <h6>Aurora</h6>
+                </div>
+                <div>
+                    <form >
+                        <p>Signup for our weekly newsletter</p>
+                        <Link target='_blank' href="https://substack.com/@aurorasystems?utm_source=edit-profile-page"><button type="submit" className='btn w-100 p-btn'>Sign Up</button></Link>
+                    </form>
+                </div>
+            </div>
+        </div>
+    )
+}

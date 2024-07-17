@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { Inter, League_Spartan } from "next/font/google";
+import { League_Spartan } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "./components/navigation_bar";
+import { Navbar, Footer } from "./components/navigation_bar";
 
 const league = League_Spartan({ subsets: ["latin"] });
 
@@ -20,6 +20,8 @@ export default function RootLayout({
       <body className={`${league.className} container`}>
         <Navbar/>
         {children}
+        <Footer/>
+        <script async src="https://tally.so/widgets/embed.js"></script>
       </body>
     </html>
   );

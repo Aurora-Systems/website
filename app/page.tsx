@@ -24,12 +24,12 @@ export default function Home() {
         </div>
       </div>
       </div>
-      <div className="d-flex justify-content-center align-items-center ">
+      <div className="d-flex justify-content-center align-items-center mt-5 mb-5">
       <div className="row mb-5 gap-2 d-flex align-items-center">
         <div className="col-sm text-center text-md-start">
           <h3 className="display-5 fw-bold">WHAT DO WE DO?</h3>
           <p>
-          We transform innovative ideas into cutting-edge digital solutions. Our team of software developers, designers, and strategists are experts in bringing visions to life through custom software and applications.
+            We transform innovative ideas into cutting-edge digital solutions. Our team of software developers, designers, and strategists are experts in bringing visions to life through custom software and applications.
           </p>
           <Link href="/contact"><button className="btn p-btn">I have an idea!</button></Link>
         </div>
@@ -82,13 +82,13 @@ export default function Home() {
         <div className="mt-3 mb-3 text-center">
             <Link href="/services"><button className="btn p-btn">View Our Services</button></Link>
         </div>
-        <div className="text-center">
+        <div className="text-center mb-5 mt-5">
           <Image src="https://ngratesc.sirv.com/website/bleu_mobile.png" className="img-fluid" width={500} height={100} alt="Mockup preview of WLC website"/>
         </div>
       </div>
       <div className="text-center">
         <h5 className="mb-3">Brands We Worked With</h5>
-          <Marquee loop={0} className="gap-5">
+          <Marquee loop={0} className="gap-5 z-0">
       
             <div className="col-sm  me-5">
               <Image src="https://ngratesc.sirv.com/website/fif.png" width={40} height={40} alt="FIF logo"/>
@@ -134,6 +134,30 @@ export default function Home() {
             </div>
           </Marquee>
       </div>
+      <div className="row mt-5 mb-5">
+      <div className="text-center">
+        <div >
+        <Image 
+          src="https://ngratesc.sirv.com/website/iclaim_preview.png" 
+          width={300} 
+          height={0}
+          className="img-fluid"
+          alt="Mockup of i-Claim website"
+        />
+        </div>
+        <div >
+          <h1>We Revolutionize Industries</h1>
+          <p>Discover how we developed i-Claim and how it’s helping insurance companies save up to 40% annually.</p>
+          <Link target="_blank" href="https://iclaim.aurorasystems.co.zw"><button className="btn p-btn">Read More</button></Link>
+        </div>
+
+      
+      </div>
+      <div className="col-sm">
+
+      </div>
+      </div>
+      
    </main>
   );
 }
