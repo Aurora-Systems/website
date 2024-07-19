@@ -20,7 +20,23 @@ export const Navbar = () => {
                 <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`}>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">Services</Link>
+                            <div className='dropdown'>
+                                <button className='dropdown-toggle'>Services <i className="bi bi-chevron-down"></i></button>
+                            <ul className='dropdown-menu'>
+                                <li>
+                                    <Link href="">Web Development</Link>
+                                </li>
+                                <li>
+                                    <Link href="">User Interface Design UI| UX</Link>
+                                </li>
+                                <li>
+                                    <Link href=""></Link>
+                                </li>
+                                <li>
+                                    <Link href=""></Link>
+                                </li>
+                            </ul>
+                            </div>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" href="#">Roadmap</Link> 
