@@ -18,26 +18,36 @@ export const Navbar = () => {
                     <i className="bi bi-list text-primary"></i>
                 </button>
                 <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`}>
+               
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <div className='dropdown'>
-                                <button className='dropdown-toggle'>Services <i className="bi bi-chevron-down"></i></button>
-                            <ul className='dropdown-menu'>
+                       <li className='nav-item'>
+                    <div className='dropdown '>
+                                <button type="button" className='bg-white btn-none border-0 ms-0 nav-link' data-bs-toggle="dropdown" aria-expanded="false">Services <i className="bi bi-chevron-down"></i></button>
+                                <ul className='dropdown-menu '>
                                 <li>
-                                    <Link href="">Web Development</Link>
-                                </li>
-                                <li>
-                                    <Link href="">User Interface Design UI| UX</Link>
-                                </li>
-                                <li>
-                                    <Link href=""></Link>
-                                </li>
-                                <li>
-                                    <Link href=""></Link>
-                                </li>
-                            </ul>
+                                        <Link className='dropdown-item' href="">Custom Software Development</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='dropdown-item' href="">User Interface Design UI | UX</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='dropdown-item' href="">Mobile App Development</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='dropdown-item' href="">Project Management</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='dropdown-item' href="">Web Development</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='dropdown-item' href="">Idea Validation</Link>
+                                    </li>
+                                   
+                                   
+                                </ul>
                             </div>
-                        </li>
+                            </li>
+                       
                         <li className="nav-item">
                             <Link className="nav-link" href="#">Roadmap</Link> 
                         </li>

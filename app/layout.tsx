@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { League_Spartan } from "next/font/google";
 import "./globals.css";
 import { Navbar, Footer } from "./components/navigation_bar";
+import BootstrapClient from "./components/bootstrap_client"
 
 const league = League_Spartan({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <Navbar/>
         {children}
         <Footer/>
+        <BootstrapClient/>
         <script async src="https://tally.so/widgets/embed.js"></script>
       </body>
     </html>
