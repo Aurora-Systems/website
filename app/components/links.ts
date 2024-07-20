@@ -4,13 +4,16 @@ const page_links = {
     portfolio: "/portfolio",
     careers: "/careers",
     contact: "/contact_us",
+    blog: "/blog",
     legal: "/legal",
     services: {
-        ux: "ux_design",
-        mobile_dev: "mobile_app_development",
-        project_management: "project_management",
-        web_dev: "web_app_development",
-        custom_dev: "custom_software_development",
-        idea_validation:"idea_validation"
+        ux: "/services/ux_design",
+        mobile_dev: "/services/mobile_app_development",
+        project_management: "/services/project_management",
+        web_dev: "/services/web_app_development",
+        custom_dev: "/services/custom_software_development",
+        idea_validation:"/services/idea_validation"
     }
 }
+
+export default page_links

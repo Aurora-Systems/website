@@ -1,5 +1,6 @@
 "use client"
 import Link from 'next/link';
+import page_links from './links';
 import Image from "next/image"
 import { useState } from 'react';
 
@@ -25,22 +26,22 @@ export const Navbar = () => {
                                 <button type="button" className='bg-white btn-none border-0 ms-0 nav-link' data-bs-toggle="dropdown" aria-expanded="false">Services <i className="bi bi-chevron-down"></i></button>
                                 <ul className='dropdown-menu '>
                                 <li>
-                                        <Link className='dropdown-item' href="">Custom Software Development</Link>
+                                        <Link className='dropdown-item' href={page_links.services.custom_dev}>Custom Software Development</Link>
                                     </li>
                                     <li>
-                                        <Link className='dropdown-item' href="">User Interface Design UI | UX</Link>
+                                        <Link className='dropdown-item' href={page_links.services.ux}>User Interface Design UI | UX</Link>
                                     </li>
                                     <li>
-                                        <Link className='dropdown-item' href="">Mobile App Development</Link>
+                                        <Link className='dropdown-item' href={page_links.services.mobile_dev}>Mobile App Development</Link>
                                     </li>
                                     <li>
-                                        <Link className='dropdown-item' href="">Project Management</Link>
+                                        <Link className='dropdown-item' href={page_links.services.project_management}>Project Management</Link>
                                     </li>
                                     <li>
-                                        <Link className='dropdown-item' href="">Web Development</Link>
+                                        <Link className='dropdown-item' href={page_links.services.web_dev}>Web Development</Link>
                                     </li>
                                     <li>
-                                        <Link className='dropdown-item' href="">Idea Validation</Link>
+                                        <Link className='dropdown-item' href={page_links.services.idea_validation}>Idea Validation</Link>
                                     </li>
                                    
                                    
@@ -49,16 +50,23 @@ export const Navbar = () => {
                             </li>
                        
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">Roadmap</Link> 
+                            <Link className="nav-link" href={page_links.roadmap}>Roadmap</Link> 
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">Portfolio</Link>
+                            <Link className="nav-link" href={page_links.portfolio}>Portfolio</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">Careers</Link>
+                            <Link className="nav-link" href={page_links.careers}>Careers</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" href={page_links.blog}>Blog</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" href={page_links.contact}>Contact Us</Link>
+                        </li>
+                        
                     </ul>
-                    <Link href="/support"><button className="btn p-btn rounded w-sm-100">Ready To Build?</button></Link>
+                    <Link href={page_links.contact}><button className="btn p-btn rounded w-sm-100">Ready To Build?</button></Link>
                 </div>
             </div>
         </nav>
@@ -81,21 +89,21 @@ export const Footer=()=>{
                 <div className='mb-3'>
                     <h6 >Services</h6>
                 </div>
-                <p><Link href="/services/web_dev">Web Development</Link></p>
-                <p><Link href="/services/ux_design">User Interface design | UI/UX</Link></p>
-                <p><Link href="/services/mobile_dev">Mobile App Development</Link></p>
-                <p><Link href="/services/project_management">Project Mnagement</Link></p>
-                <p><Link href="/services/custom_software_dev">Custom Software Development</Link></p>
+                <p><Link href={page_links.services.web_dev}>Web Development</Link></p>
+                <p><Link href={page_links.services.ux}>User Interface design | UI/UX</Link></p>
+                <p><Link href={page_links.services.mobile_dev}>Mobile App Development</Link></p>
+                <p><Link href={page_links.services.project_management}>Project Mnagement</Link></p>
+                <p><Link href={page_links.services.custom_dev}>Custom Software Development</Link></p>
             </div>
             <div className="col-sm">
                 <div className='mb-3'>
                     <h6>Pages</h6>
                 </div>
-                <p><Link href="/roadmap">Roadmap</Link></p>
-                <p><Link href="/portfolio">Porfolio</Link></p>
-                <p><Link href="/careers">Careers</Link></p>
-                <p><Link href="/contact_us">Contact us</Link></p>
-                <p><Link href="/legal">Legal</Link></p>
+                <p><Link href={page_links.roadmap}>Roadmap</Link></p>
+                <p><Link href={page_links.portfolio}>Porfolio</Link></p>
+                <p><Link href={page_links.careers}>Careers</Link></p>
+                <p><Link href={page_links.contact}>Contact us</Link></p>
+                <p><Link href={page_links.legal}>Legal</Link></p>
             </div>
             <div className="col-sm">
                 <div className="d-flex flex-row mb-3">
@@ -103,10 +111,9 @@ export const Footer=()=>{
                     <h6>Aurora</h6>
                 </div>
                 <div>
-                    <form >
                         <p>Signup for our weekly newsletter</p>
                         <Link target='_blank' href="https://substack.com/@aurorasystems?utm_source=edit-profile-page"><button type="submit" className='btn w-100 p-btn'>Sign Up</button></Link>
-                    </form>
+                        <p className='mt-3'>© {new Date().getFullYear()} Aurorasystems</p>
                 </div>
             </div>
         </div>
