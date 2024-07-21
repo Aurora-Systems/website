@@ -1,6 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 @import "~animate.css";
+
 :root{
   --bg-gradient: linear-gradient( #5de0e6, #004aed);
   --light-primary: #5de0e6;
@@ -36,4 +37,15 @@ a{
 
 .nav-link{
   color: #136dc2 !important;
+}
+
+.roadmap_container{
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+.roadmap_card{
+  min-width: 350px!important;
 }
