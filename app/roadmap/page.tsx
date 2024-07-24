@@ -10,10 +10,8 @@ export default function Roadmap() {
                     </h1>
                     <p>Building Tools With A <b className="p-text">Purpose</b></p>
                 </div>
-                <div>
-                    <Image src="https://ngratesc.sirv.com/website/roadmap-line.png" className="img-fluid" width={400} height={0} alt="Line showing roadmap"/>
-                </div>
-                <div className=" mb-3 roadmap_container gap-3 vw-100">
+                
+                <div className="container vw-100 mb-3 roadmap_container gap-3 ">
                     <div className="d-flex align-items-center roadmap_card">
                         <div>
                         <div className="pt-2">
