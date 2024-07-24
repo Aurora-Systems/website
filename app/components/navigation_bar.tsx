@@ -14,17 +14,21 @@ export const Navbar = () => {
     return (
         <nav className="bg-white z-1 navbar navbar-expand-lg bg-white position-sticky top-0 pt-3 w-100 ">
             <div className="container">
-                <h5 className="mt-1 me-3" >Aurora</h5>
+                <Link href="/"><h5 className="mt-1 me-3" >Aurora</h5></Link>
                 <button className="navbar-toggler bg-white border-0" type="button" onClick={toggleNavbar}>
                     <i className="bi bi-list text-primary"></i>
                 </button>
+                
                 <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`}>
                
+                            
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                        <li className='nav-item'>
                     <div className='dropdown '>
                                 <button type="button" className='bg-white btn-none border-0 ms-0 nav-link' data-bs-toggle="dropdown" aria-expanded="false">Services <i className="bi bi-chevron-down"></i></button>
+                               
                                 <ul className='dropdown-menu '>
+                               
                                 <li>
                                         <Link className='dropdown-item' href={page_links.services.custom_dev}>Custom Software Development</Link>
                                     </li>
@@ -36,6 +40,9 @@ export const Navbar = () => {
                                     </li>
                                     <li>
                                         <Link className='dropdown-item' href={page_links.services.project_management}>Project Management</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='dropdown-item' href={page_links.services.ai}>AI and Automation</Link>
                                     </li>
                                     <li>
                                         <Link className='dropdown-item' href={page_links.services.web_dev}>Web Development</Link>
@@ -89,6 +96,7 @@ export const Footer=()=>{
                 <div className='mb-3'>
                     <h6 >Services</h6>
                 </div>
+                <p><Link href={page_links.services.ai}>AI and Automation</Link></p>
                 <p><Link href={page_links.services.web_dev}>Web Development</Link></p>
                 <p><Link href={page_links.services.ux}>User Interface design | UI/UX</Link></p>
                 <p><Link href={page_links.services.mobile_dev}>Mobile App Development</Link></p>

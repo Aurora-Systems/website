@@ -7,6 +7,7 @@ const page_links = {
     blog: "/blog",
     legal: "/legal",
     services: {
+        ai: "/services/ai_and_automation",
         ux: "/services/ux_design",
         mobile_dev: "/services/mobile_app_development",
         project_management: "/services/project_management",

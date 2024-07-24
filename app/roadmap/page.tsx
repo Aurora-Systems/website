@@ -24,6 +24,7 @@ export default function Roadmap() {
                             <p>
                             We are enablling health providers to receive timely payments by assisting insurance companies in swiftly detecting fraud and errors in claims, reducing the waiting period from 30 days to just seconds.
                             </p>
+                            <p className="p-text">Beta - Live</p>
                             </div>
                         </div>
                         </div>
@@ -43,6 +44,7 @@ export default function Roadmap() {
                             <p>
                             We are redefining banking across Africa by creating a connected network that enables instant payments. Our neobank will provide financial access to all, making banking accessible throughout the continent.
                             </p>
+                            <p className="p-text">In progress</p>
                             </div>
                         </div>
                         </div>
@@ -63,6 +65,8 @@ export default function Roadmap() {
                             <p>
                             We are building a safer alternative to current AI platforms, Attribute will provide sources and references for responses given making sure you can trust and give credit to those who deserve it. AI which is truly Open Source
                             </p>
+                            <p className="p-text">Planning stage</p>
+
                             </div>
                         </div>
                         </div>
