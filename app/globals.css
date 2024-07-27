@@ -75,3 +75,69 @@ a{
   background: #c5c5c5;
   border-radius: 6px;
 }
+
+.portfolio_box{
+  height: 400px;
+  width: 40vw;
+}
+
+.zso_portfolio{
+  background: linear-gradient(90deg, rgb(0, 185, 0), rgb(0, 95, 0));
+}
+
+.iclaim_portfolio{
+  background: linear-gradient(90deg, var(--light-primary), var(--dark-primary));
+}
+
+.ofh_portfolio{
+  background: linear-gradient(90deg, rgb(0, 2, 92), rgb(4, 0, 255));
+}
+
+.wlc_portfolio{
+  background: linear-gradient(90deg, rgb(70, 59, 0), black);
+}
+
+
+
+
+.portfolio{
+  width: 100%;
+  overflow-x:scroll;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  flex-wrap: nowrap;
+}
+
+
+.project {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  min-width: 350px;
+  text-align: left;
+  padding: 15px;
+}
+
+.project img {
+  width: 100%;
+  height: 37vh;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 17vh;
+}
+
+.project-info h2 {
+  font-size: 1.5rem;
+  color: #007BFF;
+  margin-bottom: 5px;
+}
+
+
