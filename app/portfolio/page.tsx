@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 export default function Portfolio(){
     return(
         <div className="container ">
@@ -19,7 +20,7 @@ export default function Portfolio(){
 
                     <div className="project-info bg-dark bg-opacity-50 w-100 rounded">
                         <h2 className="text-white ">Zim Services Online</h2>
-                        <button className="btn border-0 w-100  text-white zso_portfolio">Visit</button>
+                        <Link href="https://zimbabweservices.com/" target="_blank" className="w-100"><button className="btn border-0 w-100  text-white zso_portfolio">Visit</button></Link>
                     </div>
                 </div>
                 
@@ -34,7 +35,7 @@ export default function Portfolio(){
 
                     <div className="project-info bg-dark bg-opacity-50   w-100 rounded">
                         <h2 className="text-white">Our Financial Health</h2>
-                        <button className="btn border-0  w-100 text-white ofh_portfolio">Visit</button>
+                        <Link href="https://www.ofhinitiative.com/" target="_blank" className="w-100"><button className="btn border-0  w-100 text-white ofh_portfolio">Visit</button></Link>
                     </div>
                 </div>
                 
@@ -48,7 +49,7 @@ export default function Portfolio(){
 
                     <div className="project-info bg-dark bg-opacity-50   w-100 rounded">
                         <h2 className="text-white">WLC Collection</h2>
-                        <button className="btn border-0  w-100 text-white wlc_portfolio">Visit</button>
+                        <Link href="https://www.wlcollection.com/" target="_blank" className="w-100"><button className="btn border-0  w-100 text-white wlc_portfolio">Visit</button></Link>
                     </div>
                 </div>
                 
@@ -62,7 +63,7 @@ export default function Portfolio(){
 
                     <div className="project-info bg-dark bg-opacity-75 rounded">
                         <h2 className="text-white">i-Claim</h2>
-                        <button className="btn border-0 w-100 text-white iclaim_portfolio">Visit</button>
+                        <Link href="https://iclaim.aurorasystems.co.zw" target="_blank" className="w-100"><button className="btn border-0 w-100 text-white iclaim_portfolio">Visit</button></Link>
                     </div>
                 </div>
                 
