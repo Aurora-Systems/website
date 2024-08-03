@@ -83,7 +83,7 @@ export const Navbar = () => {
 
 export const Footer=()=>{
     return(
-        <div className='row'>
+        <div className='row bg-white text-dark p-3'>
             <div className='col-sm'>
                 <div>
                     <h6 className='mb-3'>Contact Details</h6>
