@@ -113,16 +113,12 @@ export const Footer=()=>{
                 <p><Link href={page_links.contact}>Contact us</Link></p>
                 <p><Link href={page_links.legal}>Legal</Link></p>
             </div>
-            <div className="col-sm">
-                <div className="d-flex flex-row mb-3">
-                    <Image src="https://ngratesc.sirv.com/website/aurora_logo.png" width={20} height={20} alt="Aurora logo"/>
+            <div className="col-sm text-center">
+               
+                    <Image src="https://ngratesc.sirv.com/website/aurora_logo.png" width={30} height={25} className='img-fluid' alt="Aurora logo"/>
                     <h6>Aurora</h6>
-                </div>
-                <div>
-                        <p>Signup for our weekly newsletter</p>
-                        <Link target='_blank' href="https://substack.com/@aurorasystems?utm_source=edit-profile-page"><button type="submit" className='btn w-100 p-btn'>Sign Up</button></Link>
-                        <p className='mt-3'>© {new Date().getFullYear()} Aurorasystems</p>
-                </div>
+                
+                <iframe src="https://aurorasystems.substack.com/embed" frameBorder="0" scrolling="no"></iframe>
             </div>
         </div>
     )
