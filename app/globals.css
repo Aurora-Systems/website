@@ -8,6 +8,10 @@
   --dark-primary: #004aed; 
 }
 
+.p_bg{
+  background: linear-gradient(var(--light-primary), var(--dark-primary));
+}
+
 h1,h2,h3,h4,h5,h6{
     background: var(--bg-gradient);
     -webkit-background-clip: text;

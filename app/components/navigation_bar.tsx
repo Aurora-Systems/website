@@ -89,7 +89,7 @@ export const Footer=()=>{
                     <h6 className='mb-3'>Contact Details</h6>
                 </div>
                 <p><i className="bi bi-envelope me-2"></i>support@aurorasystems.co.zw</p>
-                <p><i className="bi bi-telephone me-2"></i>+263 78 898 4320</p>
+                <p><i className="bi bi-telephone me-2"></i>+263 78 004 0000</p>
                 <p><i className="bi bi-geo-alt me-2"></i>258 Smuts Rd<br/><span className='ms-4'>Waterfalls</span><br/><span className='ms-4'>Harare</span><br/><span className='ms-4'>Zimbabwe</span></p>
             </div>
             <div className="col-sm">
