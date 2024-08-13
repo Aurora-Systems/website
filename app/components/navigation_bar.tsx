@@ -12,7 +12,7 @@ export const Navbar = () => {
     };
 
     return (
-        <nav className="bg-white z-1 navbar navbar-expand-lg bg-white position-sticky top-0 pt-3 w-100 ">
+        <nav className="bg-white rounded mt-3 z-1 navbar navbar-expand-lg bg-white position-sticky top-0 pt-3 w-100 ">
             <div className="container">
                 <Link href="/"><h5 className="mt-1 me-3" >Aurora</h5></Link>
                 <button className="navbar-toggler bg-white border-0" type="button" onClick={toggleNavbar}>
@@ -38,9 +38,7 @@ export const Navbar = () => {
                                     <li>
                                         <Link className='dropdown-item' href={page_links.services.mobile_dev}>Mobile App Development</Link>
                                     </li>
-                                    <li>
-                                        <Link className='dropdown-item' href={page_links.services.project_management}>Project Management</Link>
-                                    </li>
+                                    
                                     <li>
                                         <Link className='dropdown-item' href={page_links.services.ai}>AI and Automation</Link>
                                     </li>
@@ -100,7 +98,6 @@ export const Footer=()=>{
                 <p><Link href={page_links.services.web_dev}>Web Development</Link></p>
                 <p><Link href={page_links.services.ux}>User Interface design | UI/UX</Link></p>
                 <p><Link href={page_links.services.mobile_dev}>Mobile App Development</Link></p>
-                <p><Link href={page_links.services.project_management}>Project Mnagement</Link></p>
                 <p><Link href={page_links.services.custom_dev}>Custom Software Development</Link></p>
             </div>
             <div className="col-sm">

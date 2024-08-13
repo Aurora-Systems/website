@@ -5,7 +5,7 @@ export default function ContactUs(){
             <h1 className="fw-bold p-text">Ready to Build?</h1>
             <p>Get on a quick 30 min call with us!</p>
         </div>
-        <div className="bg-light rounded mb-3">
+        <div className="bg-light rounded mb-3 p-3">
             <form >
                 <div className="row">
                     <div className="col-sm mb-2">
