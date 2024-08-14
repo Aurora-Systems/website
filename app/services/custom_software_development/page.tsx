@@ -22,8 +22,8 @@ export default function CustomSoftwareDevelopment(){
                     We believe in a collaborative approach to software development. Our process begins with a deep understanding of your business goals, challenges, and opportunities. We work closely with you to design and develop software that not only meets your current needs but is also adaptable for future growth.
                     </p>
                 </div>
-                <div className="col-sm">
-                    <img src="https://estenduc.sirv.com/website/m-3.jpg" className="img-fluid rounded " alt=""/>
+                <div className="col-sm ">
+                    <img src="https://ngratesc.sirv.com/website/csd_sec.png" className="img-fluid rounded " alt=""/>
                 </div>
             </div>
          
