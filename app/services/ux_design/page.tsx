@@ -25,7 +25,7 @@ export default function UIDesign() {
                     </p>
                 </div>
                 <div className="col-sm">
-                    <img src="https://estenduc.sirv.com/website/m-3.jpg" className="img-fluid rounded" alt="Design process" />
+                    <img src="https://ngratesc.sirv.com/website/uiux_secondary.png" className="img-fluid rounded" alt="Design process" />
                 </div>
             </div>
 
