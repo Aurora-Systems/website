@@ -5,7 +5,10 @@ export default function Blog(){
           <div className="text-center">
           
             <div className="container">
-            <iframe src="https://aurorasystems.substack.com/embed" width="380" height="320" style={{border:"1px solid #EEE;", background:"white;"}} frameBorder="0" scrolling="no"></iframe>
+              <div>
+                <img src="https://ngratesc.sirv.com/website/aurora_logo.png" className="img-fluid" width={80}/>
+              </div>
+            <iframe src="https://aurorasystems.substack.com/embed"  frameBorder="0" scrolling="no"></iframe>
             </div>
           </div>
         <SubstackFeed/>

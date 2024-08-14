@@ -6,7 +6,7 @@ const nextConfig = {
                 protocol: "https",
                 hostname: "ngratesc.sirv.com",
                 port: "",
-                pathname: "/website/**"
+                pathname: "/**"
             }
         ]
     }

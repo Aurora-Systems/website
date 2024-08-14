@@ -11,8 +11,8 @@ export default function Roadmap() {
                     <p>Building Tools With A <b className="p-text">Purpose</b></p>
                 </div>
                 
-                <div className="container vw-100 mb-3 roadmap_container gap-3 ">
-                    <div className="d-flex align-items-center roadmap_card">
+                <div className="container vw-100 mb-4 row gap-3 ">
+                    <div className="col-sm d-flex align-items-center roadmap_card">
                         <div>
                         <div className="pt-2">
                         <p><i className="bi bi-circle-fill text-primary "></i></p>
@@ -31,7 +31,7 @@ export default function Roadmap() {
                         
                     </div>
                     
-                    <div className="d-flex align-items-center roadmap_card">
+                    <div className=" col-sm d-flex align-items-center roadmap_card">
                         <div>
                         <div className="pt-2">
                         <p><i className="bi bi-circle-fill text-primary "></i></p>
@@ -50,7 +50,7 @@ export default function Roadmap() {
                         </div>
                        
                     </div>
-                    <div className="d-flex align-items-center roadmap_card">
+                    <div className="col-sm d-flex align-items-center roadmap_card">
                         <div>
 
                         
@@ -74,9 +74,8 @@ export default function Roadmap() {
                     </div>
                    
                 </div>
-                <div>
-                    <button className="btn p-btn">Stay Updated</button>
-                </div>
+                <iframe src="https://aurorasystems.substack.com/embed"  frameBorder="0" scrolling="no"></iframe>
+
             </div>
         </div>
     )
