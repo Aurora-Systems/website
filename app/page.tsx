@@ -11,7 +11,7 @@ export default function Home() {
             ACCELERATING <br/> DIGITAL <br/> ADOPTION
           </h3>
           <p>We build to scale by thoroughly validating and conducting a series of investigations to provide you with a robust ecosystem.</p>
-          <Link href="/contact"><button className="btn p-btn">Ready To Build?</button></Link>
+          <Link href="/contact_us"><button className="btn p-btn">Ready To Build?</button></Link>
         </div>
         <div className="col-sm  text-center">
           <Image 
@@ -31,7 +31,7 @@ export default function Home() {
           <p>
             We transform innovative ideas into cutting-edge digital solutions. Our team of software developers, designers, and strategists are experts in bringing visions to life through custom software and applications.
           </p>
-          <Link href="/contact"><button className="btn p-btn">I have an idea!</button></Link>
+          <Link href="/contact_us"><button className="btn p-btn">I have an idea!</button></Link>
         </div>
         <div className="col-sm text-center">
           <Image 

@@ -60,7 +60,7 @@ export default function ContactUs(){
         </div>
         <div className="container d-block mb-4 mt-4">
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15188.379049987738!2d31.050825!3d-17.881022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45585aeea8dea1a5%3A0xdb02cf18c65a6b11!2sAurora%20Systems!5e0!3m2!1sen!2szw!4v1722775668872!5m2!1sen!2szw"  className="d-block w-100" style={{border:"0;"}}  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15188.379049987738!2d31.050825!3d-17.881022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45585aeea8dea1a5%3A0xdb02cf18c65a6b11!2sAurora%20Systems!5e0!3m2!1sen!2szw!4v1722775668872!5m2!1sen!2szw"  className="d-block w-100"   loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
     )
