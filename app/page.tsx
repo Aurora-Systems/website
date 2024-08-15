@@ -80,7 +80,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-3 mb-3 text-center">
-            <Link href="/services"><button className="btn p-btn">View Our Services</button></Link>
+            <Link href="/contact_us"><button className="btn p-btn">Discuss Your Next Project With Us</button></Link>
         </div>
         <div className="text-center mb-5 mt-5">
           <Image src="https://ngratesc.sirv.com/website/bleu_mobile.png" className="img-fluid" width={500} height={100} alt="Mockup preview of WLC website"/>
