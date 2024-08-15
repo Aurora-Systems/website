@@ -58,11 +58,15 @@ export default function WebDevelopment() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="row mb-5 mt-5">
                 <h1 className="fw-bold display-1 text-center">
-                    WHY CHOOSE US
+                    WHY CHOOSE US?
                 </h1>
-               <div>
+                <div className="text-center col-sm">
+            <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded"/>
+
+            </div>
+               <div className="col-sm">
                 <ul>
                     <li><b>Experienced Developers:</b> Our team of skilled web developers brings years of experience and expertise in the latest web technologies, ensuring top-quality results.</li>
                     <li><b>User-Centric Design:</b> We prioritize user experience, creating websites that are intuitive, engaging, and designed to convert visitors into customers.</li>
@@ -73,10 +77,7 @@ export default function WebDevelopment() {
                </div>
 
             </div>
-            <div className="text-center">
-            <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded h-50"/>
-
-            </div>
+            
 
             </div>
        

@@ -58,11 +58,15 @@ export default function MobileAppDevelopment() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="row mt-5 mb-5">
                 <h1 className="fw-bold display-1 text-center">
-                    WHY CHOOSE US
+                    WHY CHOOSE US?
                 </h1>
-                <div>
+                <div className="text-center col-sm">
+                    <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded" />
+
+                </div>
+                <div className="col-sm">
                     <ul>
                         <li><b>End-to-End Solutions:</b> We handle every aspect of mobile app development, from initial concept to final deployment, ensuring a seamless process and a high-quality product.</li>
                         <li><b>Expertise in Latest Technologies:</b> We stay up-to-date with the latest mobile technologies and trends, ensuring that your app is built with the best tools and techniques available.</li>
@@ -74,9 +78,7 @@ export default function MobileAppDevelopment() {
 
             </div>
 
-            <div className="text-center">
-            <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded h-50"/>
 
-            </div>
         </div>
-    )}
+    )
+}

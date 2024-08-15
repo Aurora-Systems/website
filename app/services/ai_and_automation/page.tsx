@@ -58,11 +58,15 @@ export default function AIandAutomation() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="row mb-5 mt-5">
                 <h1 className="fw-bold display-1 text-center">
-                    WHY CHOOSE US
+                    WHY CHOOSE US?
                 </h1>
-               <div>
+                <div className="text-center col-sm">
+            <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded"/>
+
+            </div>
+               <div className="col-sm">
                 <ul>
                     <li><b>Cutting-Edge Technology:</b> We use the latest AI and automation technologies to build solutions that are innovative, scalable, and tailored to your needs.</li>
                     <li><b>Experienced Team:</b> Our team of AI specialists and automation experts bring deep expertise and a proven track record of delivering successful projects across various industries.</li>
@@ -73,10 +77,7 @@ export default function AIandAutomation() {
                </div>
 
             </div>
-            <div className="text-center">
-            <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded h-50"/>
-
-            </div>
+            
             </div>
     )
 }

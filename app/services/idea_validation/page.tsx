@@ -58,11 +58,15 @@ export default function IdeaValidation() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="row mb-5 mt-5">
                 <h1 className="fw-bold display-1 text-center">
-                    WHY CHOOSE US
+                    WHY CHOOSE US?
                 </h1>
-               <div>
+                <div className="text-center col-sm">
+            <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded"/>
+
+            </div>
+               <div className="col-sm">
                 <ul>
                     <li><b>Expert Guidance:</b> Our team of experts brings years of experience in idea validation, helping you navigate the complexities of turning a concept into a viable product.</li>
                     <li><b>Data-Driven Insights:</b> We rely on data-driven insights to guide the validation process, ensuring that your decisions are based on solid research and analysis.</li>
@@ -74,10 +78,7 @@ export default function IdeaValidation() {
 
             </div>
 
-            <div className="text-center">
-            <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded h-50"/>
-
-            </div>
+          
             </div>
         
     )

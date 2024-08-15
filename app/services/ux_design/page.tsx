@@ -60,11 +60,15 @@ export default function UIDesign() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="row mt-5 mb-5">
                 <h1 className="fw-bold display-1 text-center">
-                    WHY CHOOSE US
+                    WHY CHOOSE US?
                 </h1>
-                <div>
+                <div className="text-center col-sm">
+                    <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded" />
+
+                </div>
+                <div className="col-sm">
                     <ul>
                         <li><b>User-Centric Philosophy:</b> Our design process revolves around the needs and expectations of your users, ensuring that the final product is intuitive, accessible, and enjoyable to use.</li>
                         <li><b>Attention to Detail:</b> We focus on the little things that make a big difference, ensuring every element of your UI is polished and aligned with your brand.</li>
@@ -75,11 +79,8 @@ export default function UIDesign() {
                 </div>
 
             </div>
-            <div className="text-center">
-            <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded h-50"/>
 
-            </div>
         </div>
-        
+
     )
 }
