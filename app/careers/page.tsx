@@ -24,7 +24,7 @@ export default function Careers() {
             <div>
                 <h1 className="display-1 fw-bold">JOIN THE A-Team</h1>
                 <p>We are big on passion, express yourself, make decisions that matter!</p>
-                <div className="m-2 p-3 bg-light">
+                <div className="rounded p-3 bg-light">
 
                 <form ref={form} onSubmit={send_application}>
                     <div className="row ">
