@@ -89,11 +89,11 @@ export const Navbar = () => {
 export const Footer=()=>{
     return(
         <div className='row bg-white text-dark p-3'>
-            <div className='col-sm'>
+            <div className='col-sm  col col-md-3'>
                 <div>
                     <h6 className='mb-3'>Contact Details</h6>
                 </div>
-                <p><i className="bi bi-envelope me-2"></i>support@aurorasystems.co.zw</p>
+                <p><i className="bi bi-envelope me-2 "></i>support@aurorasystems.co.zw</p>
                 <p><i className="bi bi-telephone me-2"></i>+263 78 004 0000</p>
                 <p><i className="bi bi-geo-alt me-2"></i>258 Smuts Rd<br/><span className='ms-4'>Waterfalls</span><br/><span className='ms-4'>Harare</span><br/><span className='ms-4'>Zimbabwe</span></p>
             </div>
@@ -113,16 +113,16 @@ export const Footer=()=>{
                 </div>
                 <p><Link href={page_links.roadmap}>Roadmap</Link></p>
                 <p><Link href={page_links.portfolio}>Porfolio</Link></p>
+                <p><Link href={page_links.careers}>Careers</Link></p>
                 <p><Link href={page_links.blog}>Blog</Link></p>
                 <p><Link href={page_links.contact}>Contact us</Link></p>
-                <p><Link href={page_links.legal}>Legal</Link></p>
             </div>
             <div className="col-sm text-center">
                
                     <Image src="https://ngratesc.sirv.com/website/aurora_logo.png" width={30} height={25} className='img-fluid' alt="Aurora logo"/>
                     <h6>Aurora</h6>
                 
-                <iframe src="https://aurorasystems.substack.com/embed" frameBorder="0" scrolling="no"></iframe>
+                <iframe src="https://aurorasystems.substack.com/embed"  ></iframe>
             </div>
         </div>
     )

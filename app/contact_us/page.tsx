@@ -73,7 +73,16 @@ export default function ContactUs(){
                 </div>
                 <div className="row">
                     <div className="col-sm">
-                        <button type="submit" className="btn p-btn">Send</button>
+                        <button type="submit" className="btn p-btn">
+                             {
+                                loading
+                                ?
+                                <div className="spinner-border spinner-border-sm text-light " role="status">
+                                   <span className="visually-hidden">Loading...</span>
+                               </div>
+                               :
+                               "Send"
+                           }</button>
                     </div>
                 </div>
             </form>
