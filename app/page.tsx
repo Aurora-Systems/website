@@ -132,6 +132,10 @@ export default function Home() {
               <p><small>Exalt</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
+              <Image src="https://ngratesc.sirv.com/ristian/logo.png" width={40} height={40} alt="FIF logo"/>
+              <p><small>Ristian</small></p>
+            </div>
+            <div className="col-sm ms-5 me-5">
               <Image src="https://ngratesc.sirv.com/website/nehms.png" width={100} height={40} alt="FIF logo"/>
               <p><small>NEMHS</small></p>
             </div>
