@@ -87,7 +87,7 @@ export default function Home() {
         </div>
       </div>
       <div className="text-center">
-        <h5 className="mb-3">Brands We Worked With</h5>
+        <h1 className="mb-3">Our Global Clients</h1>
           <Marquee loop={0} className="gap-5 z-0">
           <div className="col-sm  me-5">
               <Image src="https://ngratesc.sirv.com/nairet/favicon_logo.png" width={40} height={40} alt="FIF logo"/>
@@ -134,6 +134,10 @@ export default function Home() {
             <div className="col-sm ms-5 me-5">
               <Image src="https://ngratesc.sirv.com/ristian/logo.png" width={40} height={40} alt="FIF logo"/>
               <p><small>Ristian</small></p>
+            </div>
+            <div className="col-sm ms-5 me-5">
+              <Image src="https://ngratesc.sirv.com/grimaco/logo.png" width={40} height={40} alt="FIF logo"/>
+              <p><small>Grimaco</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
               <Image src="https://ngratesc.sirv.com/website/nehms.png" width={100} height={40} alt="FIF logo"/>
