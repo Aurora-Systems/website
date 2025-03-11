@@ -8,7 +8,7 @@ export default function Careers() {
     const send_application = (e: FormEvent) => {
         e.preventDefault()
         set_loading(true)
-        emailjs.sendForm("service_l2ay0f2", "template_4fvy5ow", form.current, {
+        emailjs.sendForm("service_xwf6fms", "template_4fvy5ow", form.current, {
             publicKey: "CLt7ZGjfiSQEopImB"
         }).then(() => {
             alert("✅Application sent")
