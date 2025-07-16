@@ -31,25 +31,7 @@ export default function Roadmap() {
                         
                     </div>
                     
-                    <div className=" col-sm d-flex align-items-center roadmap_card">
-                        <div>
-                        <div className="pt-2">
-                        <p><i className="bi bi-circle-fill text-primary "></i></p>
-                        </div>
-                        <div className="border rounded p-2">
-                        <div>
-                        <p className="p-text fw-normal">Q4 -2025</p>
-
-                            <h5>Bleu</h5>
-                            <p>
-                            We are redefining banking across Africa by creating a connected network that enables instant payments. Our neobank will provide financial access to all, making banking accessible throughout the continent.
-                            </p>
-                            <p className="p-text">In progress</p>
-                            </div>
-                        </div>
-                        </div>
-                       
-                    </div>
+                   
                     <div className="col-sm d-flex align-items-center roadmap_card">
                         <div>
 
@@ -61,20 +43,39 @@ export default function Roadmap() {
                         <div>
                         <p className="p-text fw-normal">Q2 -2025</p>
 
-                            <h5>Attribute AI</h5>
+                            <h5>Delve</h5>
                             <p>
-                            We are building a safer alternative to current AI platforms, Attribute will provide sources and references for responses given making sure you can trust and give credit to those who deserve it. AI which is truly Open Source
+                                                        We are enablling health providers to receive timely payments by assisting with tracking their claims. Delve enables providers to get indepth data on how their claims are handled. No more late payments when you get timely reminders.
+
                             </p>
-                            <p className="p-text">Planning stage</p>
+                            <p className="p-text">Beta - Live</p>
 
                             </div>
                         </div>
                         </div>
                         
                     </div>
+                     <div className=" col-sm d-flex align-items-center roadmap_card">
+                        <div>
+                        <div className="pt-2">
+                        <p><i className="bi bi-circle-fill text-primary "></i></p>
+                        </div>
+                        <div className="border rounded p-2">
+                        <div>
+                        <p className="p-text fw-normal">Q4 -2026</p>
+
+                            <h5>Bleu</h5>
+                            <p>
+                            We are redefining banking across Africa by creating a connected network that enables instant payments. Our neobank will provide financial access to all, making banking accessible throughout the continent.
+                            </p>
+                            <p className="p-text">In progress</p>
+                            </div>
+                        </div>
+                        </div>
+                       
+                    </div>
                    
                 </div>
-                <iframe src="https://aurorasystems.substack.com/embed"  frameBorder="0" scrolling="no"></iframe>
 
             </div>
         </div>

@@ -33,13 +33,18 @@ export default function RootLayout({
           }}
         />
       </Head>
-      <body className={`${league.className} container`}>
+      <body className={`${league.className} `}>
+        <div className="container">
+
         <Navbar/>
         {children}
-        <Footer/>
         <BootstrapClient/>
         <script async src="https://tally.so/widgets/embed.js"></script>
         <LinkedInInsightTag/>
+                </div>
+                        <Footer/>
+
+
       </body>
     </html>
   );

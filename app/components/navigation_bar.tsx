@@ -88,15 +88,37 @@ export const Navbar = () => {
 
 export const Footer=()=>{
     return(
-        <div className='row bg-white text-dark p-3'>
-            <div className='col-sm  col col-md-3'>
+        <div>
+
+        <div className='row bg-white gap-2 text-dark p-2 vw-100'>
+              <div className='col-sm  col col-sm'>
                 <div>
                     <h6 className='mb-3'>Contact Details</h6>
                 </div>
-                <p><i className="bi bi-envelope me-2 "></i>support@aurorasystems.co.zw</p>
-                <p><i className="bi bi-telephone me-2"></i>+263 78 004 0000</p>
+                <p><i className="bi bi-envelope me-2 "></i><Link href="mailto:support@aurorasystems.co.zw:">support@aurorasystems.co.zw</Link></p>
+                <p><i className="bi bi-telephone me-2"></i><Link href="tel:+263780040000">+263 78 004 0000</Link></p>
+                <p><i className="bi bi-telephone me-2"></i><Link href="tel:+1 (629) 276-5611">+1 (629) 276-5611</Link></p>
+                <div className='d-flex f flex-row gap-3'>
+                <p><Link href="https://www.linkedin.com/company/aurorazw" target="_blank" ><i className="bi bi-linkedin me-2" ></i></Link></p>
+                <p><Link href="https://www.facebook.com/AuroraSystemsAfrica/" target="_blank" ><i className="bi bi-facebook me-2" ></i></Link></p>
+                <p><Link href="https://www.instagram.com/aurorasystems_/" target="_blank" ><i className="bi bi-instagram me-2" ></i></Link></p>
+                <p><Link href="https://x.com/AuroraSystemsZW" target="_blank" ><i className="bi bi-twitter-x me-2" ></i></Link></p>
+                <p><Link href="https://wa.me/263780040000" target="_blank" ><i className="bi bi-whatsapp me-2" ></i></Link></p>
+                <p><Link href="https://aurorasystems.substack.com" target="_blank" ><i className="bi bi-substack me-2" ></i></Link></p>
+
+
+                </div>
+                
+
+            </div>
+             <div className='col-sm  col col-sm'>
+                <div>
+                    <h6 className='mb-3'>Location</h6>
+                </div>
+                <p><i className="bi bi-geo-alt me-2"></i>1111B S Governors Ave <br/><span className='ms-4'> STE 37386, Dover</span><br/><span className='ms-4'>Delaware</span><br/><span className='ms-4'>United States of America</span></p>
                 <p><i className="bi bi-geo-alt me-2"></i>258 Smuts Rd<br/><span className='ms-4'>Waterfalls</span><br/><span className='ms-4'>Harare</span><br/><span className='ms-4'>Zimbabwe</span></p>
             </div>
+          
             <div className="col-sm">
                 <div className='mb-3'>
                     <h6 >Services</h6>
@@ -107,7 +129,7 @@ export const Footer=()=>{
                 <p><Link href={page_links.services.mobile_dev}>Mobile App Development</Link></p>
                 <p><Link href={page_links.services.custom_dev}>Custom Software Development</Link></p>
             </div>
-            <div className="col-sm">
+            <div className="col-sm col-md-1" >
                 <div className='mb-3'>
                     <h6>Pages</h6>
                 </div>
@@ -125,5 +147,9 @@ export const Footer=()=>{
                 <iframe src="https://aurorasystems.substack.com/embed"  ></iframe>
             </div>
         </div>
+        <div className='text-center bg-black text-white p-2'>
+            <span>Aurora Systems is a subsidiary of <a href="https://attributeai.xyz">Attribute Ai, LLC</a></span>
+        </div>
+                </div>
     )
 }
