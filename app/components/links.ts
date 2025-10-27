@@ -6,7 +6,7 @@ const page_links = {
     contact: "/contact_us",
     blog: "/blog",
     legal: "/legal",
-    terms_and_conditions:"/terms_and_conditions",
+    terms_and_conditions:"/terms-and-conditions",
 
     services: {
         ai: "/services/ai_and_automation",
