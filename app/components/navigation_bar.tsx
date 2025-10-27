@@ -75,6 +75,9 @@ export const Navbar = () => {
                             <Link className="nav-link" href={page_links.blog} onClick={closeNavbar}>Blog</Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link" href={page_links.terms_and_conditions} onClick={closeNavbar}>Terms & Conditions</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link" href={page_links.contact} onClick={closeNavbar}>Contact Us</Link>
                         </li>
                     </ul>
@@ -128,6 +131,7 @@ export const Footer=()=>{
                 <p><Link href={page_links.services.ux}>User Interface design | UI/UX</Link></p>
                 <p><Link href={page_links.services.mobile_dev}>Mobile App Development</Link></p>
                 <p><Link href={page_links.services.custom_dev}>Custom Software Development</Link></p>
+                <p><Link href={page_links.services.idea_validation}>Idea Validation</Link></p>
             </div>
             <div className="col-sm col-md-1" >
                 <div className='mb-3'>
@@ -138,6 +142,7 @@ export const Footer=()=>{
                 <p><Link href={page_links.careers}>Careers</Link></p>
                 <p><Link href={page_links.blog}>Blog</Link></p>
                 <p><Link href={page_links.contact}>Contact us</Link></p>
+                <p><Link href={page_links.terms_and_conditions}>Terms and Conditions</Link></p>
             </div>
             <div className="col-sm text-center">
                

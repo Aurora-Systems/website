@@ -6,6 +6,8 @@ const page_links = {
     contact: "/contact_us",
     blog: "/blog",
     legal: "/legal",
+    terms_and_conditions:"/terms_and_conditions",
+
     services: {
         ai: "/services/ai_and_automation",
         ux: "/services/ux_design",
@@ -13,7 +15,7 @@ const page_links = {
         project_management: "/services/project_management",
         web_dev: "/services/web_app_development",
         custom_dev: "/services/custom_software_development",
-        idea_validation:"/services/idea_validation"
+        idea_validation:"/services/idea_validation",
     }
 }
 
