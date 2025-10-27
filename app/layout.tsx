@@ -44,7 +44,7 @@ export default function RootLayout({
                 </div>
                         <Footer/>
 
-
+<script async type="text/javascript">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"siqf22096acdd69860087f120f3a2ad5f5dda6df0bd5c3334259ad020db051987f8", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
       </body>
     </html>
   );
