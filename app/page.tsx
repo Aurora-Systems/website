@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
+import image_cdn_url from "./components/links";
 export default function Home() {
   return (
     <main>
@@ -15,7 +16,7 @@ export default function Home() {
         </div>
         <div className="col-sm  text-center">
           <Image 
-            src="https://ngratesc.sirv.com/website/lander%20bleu.png"
+            src={`${image_cdn_url}lander%20bleu.png`}
             className="img-fluid ms-5" 
             width={200} 
             height={500}
