@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import { image_cdn_url } from "../../components/links";
 
 export default function UIDesign() {
     return (
@@ -12,7 +13,7 @@ export default function UIDesign() {
                     <Link href="/contact_us"><button className="btn p-btn">Get In Touch</button></Link>
                 </div>
                 <div className="rounded text-center mb-5">
-                    <img src="https://ngratesc.sirv.com/website/bleu_mobile.png" className="img-fluid w-75" alt="UI design concept" />
+                    <img src={`${image_cdn_url}bleu_mobile.png`} className="img-fluid w-75" alt="UI design concept" />
                 </div>
             </div>
             <div className="row d-flex align-items-center mb-5">
@@ -25,7 +26,7 @@ export default function UIDesign() {
                     </p>
                 </div>
                 <div className="col-sm">
-                    <img src="https://ngratesc.sirv.com/website/uiux_secondary.png" className="img-fluid rounded" alt="Design process" />
+                    <img src={`${image_cdn_url}uiux_secondary.png`} className="img-fluid rounded" alt="Design process" />
                 </div>
             </div>
 
@@ -65,7 +66,7 @@ export default function UIDesign() {
                     WHY CHOOSE US?
                 </h1>
                 <div className="text-center col-sm">
-                    <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded" />
+                    <img src={`${image_cdn_url}handshake.png`} className="img-fluid  rounded" />
 
                 </div>
                 <div className="col-sm">

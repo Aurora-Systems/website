@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { image_cdn_url } from "../../components/links";
 
 export default function AIandAutomation() {
     return (
@@ -10,7 +11,7 @@ export default function AIandAutomation() {
                     <Link href="/contact_us"><button className="btn p-btn">Get In Touch</button></Link>
                 </div>
                 <div className="rounded text-center mb-5 mt-5">
-                    <img src="https://ngratesc.sirv.com/website/Frame%201.png" className="img-fluid w-50" alt="AI and Automation concept" />
+                    <img src={`${image_cdn_url}Frame%201.png`} className="img-fluid w-50" alt="AI and Automation concept" />
                 </div>
             </div>
             <div className="row d-flex align-items-center mb-5">
@@ -23,7 +24,7 @@ export default function AIandAutomation() {
                     </p>
                 </div>
                 <div className="col-sm">
-                    <img src="https://ngratesc.sirv.com/website/129780.jpg" className="img-fluid rounded" alt="AI and automation process" />
+                    <img src={`${image_cdn_url}129780.jpg`} className="img-fluid rounded" alt="AI and automation process" />
                 </div>
             </div>
          
@@ -63,7 +64,7 @@ export default function AIandAutomation() {
                     WHY CHOOSE US?
                 </h1>
                 <div className="text-center col-sm">
-            <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded"/>
+            <img src={`${image_cdn_url}handshake.png`} className="img-fluid  rounded"/>
 
             </div>
                <div className="col-sm">

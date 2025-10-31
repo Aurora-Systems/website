@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { image_cdn_url } from "../../components/links";
 
 export default function IdeaValidation() {
     return (
@@ -10,7 +11,7 @@ export default function IdeaValidation() {
                     <Link href="/contact_us"><button className="btn p-btn">Get In Touch</button></Link>
                 </div>
                 <div className="rounded text-center mb-5">
-                    <img src="https://ngratesc.sirv.com/website/checklist.png" className="img-fluid " alt="Idea validation concept" />
+                    <img src={`${image_cdn_url}checklist.png`} className="img-fluid " alt="Idea validation concept" />
                 </div>
             </div>
             <div className="row d-flex align-items-center mb-5">
@@ -63,7 +64,7 @@ export default function IdeaValidation() {
                     WHY CHOOSE US?
                 </h1>
                 <div className="text-center col-sm">
-            <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded"/>
+            <img src={`${image_cdn_url}handshake.png`} className="img-fluid  rounded"/>
 
             </div>
                <div className="col-sm">

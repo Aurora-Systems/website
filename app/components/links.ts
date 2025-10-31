@@ -19,6 +19,6 @@ const page_links = {
     }
 }
 
-export image_cdn_url =  "https://webclients.blob.core.windows.net/aurora/website/"
+export const image_cdn_url =  "https://webclients.blob.core.windows.net/aurora/website/"
 
 export default page_links

@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
-import image_cdn_url from "./components/links";
+import {image_cdn_url} from "./components/links";
 export default function Home() {
   return (
     <main>
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         <div className="col-sm text-center">
           <Image 
-            src="https://ngratesc.sirv.com/website/zimservices.png" 
+            src={`${image_cdn_url}zimservices.png`}
             width={600} 
             height={650}
             className="img-fluid"
@@ -84,7 +84,7 @@ export default function Home() {
             <Link href="/contact_us"><button className="btn p-btn">Discuss Your Next Project With Us</button></Link>
         </div>
         <div className="text-center mb-5 mt-5">
-          <Image src="https://ngratesc.sirv.com/website/bleu_mobile.png" className="img-fluid" width={500} height={100} alt="Mockup preview of WLC website"/>
+          <Image src={`${image_cdn_url}bleu_mobile.png`} className="img-fluid" width={500} height={100} alt="Mockup preview of WLC website"/>
         </div>
       </div>
       <div className="text-center">
@@ -158,7 +158,7 @@ export default function Home() {
       <div className="text-center">
         <div >
         <Image 
-          src="https://ngratesc.sirv.com/website/iclaim_preview.png" 
+          src={`${image_cdn_url}iclaim_preview.png`} 
           width={300} 
           height={0}
           className="img-fluid"

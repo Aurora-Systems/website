@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { image_cdn_url } from "../../components/links";
 
 export default function WebDevelopment() {
     return (
@@ -10,7 +11,7 @@ export default function WebDevelopment() {
                     <Link href="/contact_us"><button className="btn p-btn">Get In Touch</button></Link>
                 </div>
                 <div className="rounded text-center mb-5">
-                    <img src="https://ngratesc.sirv.com/website/aurora_lander.png" className="img-fluid w-75" alt="Web development concept" />
+                    <img src={`${image_cdn_url}aurora_lander.png`} className="img-fluid w-75" alt="Web development concept" />
                 </div>
             </div>
             <div className="row d-flex align-items-center mb-5">
@@ -23,7 +24,7 @@ export default function WebDevelopment() {
                     </p>
                 </div>
                 <div className="col-sm">
-                    <img src="https://ngratesc.sirv.com/website/porto.png" className="img-fluid rounded" alt="Web development process" />
+                    <img src={`${image_cdn_url}porto.png`} className="img-fluid rounded" alt="Web development process" />
                 </div>
             </div>
          
@@ -63,7 +64,7 @@ export default function WebDevelopment() {
                     WHY CHOOSE US?
                 </h1>
                 <div className="text-center col-sm">
-            <img src="https://ngratesc.sirv.com/website/handshake.png" className="img-fluid  rounded"/>
+            <img src={`${image_cdn_url}handshake.png`} className="img-fluid  rounded"/>
 
             </div>
                <div className="col-sm">

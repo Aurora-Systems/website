@@ -1,5 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
+import { image_cdn_url } from "../components/links"
+
 export default function Portfolio() {
     return (
         <div className="container ">
@@ -15,7 +17,7 @@ export default function Portfolio() {
                             <div className="col-sm  project zso_portfolio">
                                 <div className="text-center">
 
-                                    <img width={50} className="img-fluid w-75" src="https://ngratesc.sirv.com/website/zimservices.png" alt="ZSO Project" />
+                                    <img width={50} className="img-fluid w-75" src={`${image_cdn_url}zimservices.png`} alt="ZSO Project" />
                                 </div>
 
                                 <div className="project-info bg-dark bg-opacity-50 w-100 rounded">
@@ -30,7 +32,7 @@ export default function Portfolio() {
                             <div className="project ofh_portfolio">
                                 <div className="text-center">
 
-                                    <img className="img-fluid w-75" src="https://ngratesc.sirv.com/website/mobil_app.png" alt="ZSO Project" />
+                                    <img className="img-fluid w-75" src={`${image_cdn_url}mobil_app.png`} alt="ZSO Project" />
                                 </div>
 
                                 <div className="project-info bg-dark bg-opacity-50   w-100 rounded">
@@ -44,7 +46,7 @@ export default function Portfolio() {
                             <div className="project wlc_portfolio">
                                 <div className="text-center">
 
-                                    <img className="img-fluid w-75" src="https://ngratesc.sirv.com/website/wlc_port.png" alt="ZSO Project" />
+                                    <img className="img-fluid w-75" src={`${image_cdn_url}wlc_port.png`} alt="ZSO Project" />
                                 </div>
 
                                 <div className="project-info bg-dark bg-opacity-50   w-100 rounded">
@@ -58,7 +60,7 @@ export default function Portfolio() {
                             <div className="project iclaim_portfolio">
                                 <div className="text-center">
 
-                                    <img className="img-fluid w-75" src="https://ngratesc.sirv.com/website/iclaim_preview.png" alt="ZSO Project" />
+                                    <img className="img-fluid w-75" src={`${image_cdn_url}iclaim_preview.png`} alt="ZSO Project" />
                                 </div>
 
                                 <div className="project-info bg-dark bg-opacity-75 rounded">
