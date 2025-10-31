@@ -90,18 +90,18 @@ export default function Home() {
       <div className="text-center">
         <h1 className="mb-3">Our Global Clients</h1>
           <Marquee loop={0} className="gap-5 z-0">
-          <div className="col-sm  me-5">
-              <Image src="https://ngratesc.sirv.com/nairet/favicon_logo.png" width={40} height={40} alt="FIF logo"/>
+          {/* <div className="col-sm  me-5"> */}
+              {/* <Image src="https://ngratesc.sirv.com/nairet/favicon_logo.png" width={40} height={40} alt="FIF logo"/>
               <p><small>Nairet</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
               <Image src="https://ngratesc.sirv.com/mae_website/logo%20MAE%20DISTRIBUTORS.png" width={40} height={40} alt="FIF logo"/>
               <p><small>MAE</small></p>
-            </div>
-            <div className="col-sm ms-5 me-5">
+            </div> */}
+            {/* <div className="col-sm ms-5 me-5">
               <Image src="https://ngratesc.sirv.com/Delphy/favicon.png" width={40} height={40} alt="FIF logo"/>
               <p><small>Delphy</small></p>
-            </div>
+            </div> */}
             <div className="col-sm ms-5 me-5">
               <Image src={`${image_cdn_url}fif.png`} width={40} height={40} alt="FIF logo"/>
               <p><small>FIF College</small></p>
