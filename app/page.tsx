@@ -132,14 +132,14 @@ export default function Home() {
               <Image src={`${image_cdn_url}exalt.png`} width={40} height={40} alt="FIF logo"/>
               <p><small>Exalt</small></p>
             </div>
-            <div className="col-sm ms-5 me-5">
+            {/* <div className="col-sm ms-5 me-5">
               <Image src={`${image_cdn_url}ristian/logo.png`} width={40} height={40} alt="FIF logo"/>
               <p><small>Ristian</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
               <Image src={`${image_cdn_url}grimaco/logo.png`} width={40} height={40} alt="FIF logo"/>
               <p><small>Grimaco</small></p>
-            </div>
+            </div> */}
             <div className="col-sm ms-5 me-5">
               <Image src={`${image_cdn_url}nehms.png`} width={100} height={40} alt="FIF logo"/>
               <p><small>NEMHS</small></p>
