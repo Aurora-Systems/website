@@ -103,53 +103,53 @@ export default function Home() {
               <p><small>Delphy</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/fif.png" width={40} height={40} alt="FIF logo"/>
+              <Image src={`${image_cdn_url}fif.png`} width={40} height={40} alt="FIF logo"/>
               <p><small>FIF College</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/prospect.png" width={40} height={40} alt="FIF logo"/>
+              <Image src={`${image_cdn_url}prospect.png`} width={40} height={40} alt="FIF logo"/>
               <p><small>PPPMH</small></p>
 
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/zso.png" width={40} height={40} alt="FIF logo"/>
+              <Image src={`${image_cdn_url}zso.png`} width={40} height={40} alt="FIF logo"/>
               <p><small>ZSO</small></p>
 
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/bellprize.png" width={40} height={40} alt="FIF logo"/>
+              <Image src={`${image_cdn_url}bellprize.png`} width={40} height={40} alt="FIF logo"/>
               <p><small>Bellprize</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/riom.png" width={40} height={40} alt="FIF logo"/>
+              <Image src={`${image_cdn_url}riom.png`} width={40} height={40} alt="FIF logo"/>
               <p><small>Riom Medcare</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/logoBig.webp" width={40} height={40} alt="FIF logo"/>
+              <Image src={`${image_cdn_url}logoBig.webp`} width={40} height={40} alt="FIF logo"/>
               <p><small>StartUp</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/exalt.png" width={40} height={40} alt="FIF logo"/>
+              <Image src={`${image_cdn_url}exalt.png`} width={40} height={40} alt="FIF logo"/>
               <p><small>Exalt</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/ristian/logo.png" width={40} height={40} alt="FIF logo"/>
+              <Image src={`${image_cdn_url}ristian/logo.png`} width={40} height={40} alt="FIF logo"/>
               <p><small>Ristian</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/grimaco/logo.png" width={40} height={40} alt="FIF logo"/>
+              <Image src={`${image_cdn_url}grimaco/logo.png`} width={40} height={40} alt="FIF logo"/>
               <p><small>Grimaco</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/nehms.png" width={100} height={40} alt="FIF logo"/>
+              <Image src={`${image_cdn_url}nehms.png`} width={100} height={40} alt="FIF logo"/>
               <p><small>NEMHS</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/OFH.png" width={90} height={40} alt="OFH logo"/>
+              <Image src={`${image_cdn_url}OFH.png`} width={90} height={40} alt="OFH logo"/>
               <p><small>OFH</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/WLC.webp" width={40} height={40} alt="OFH logo"/>
+              <Image src={`${image_cdn_url}WLC.webp`} width={40} height={40} alt="OFH logo"/>
               <p><small>WLC</small></p>
             </div>
           </Marquee>
